@@ -1,0 +1,39 @@
+body{
+  background-color: rgb(1, 31, 63);
+}
+button{
+  border: 10px black solid;
+  border-radius: 20%;
+  height: 200px;
+  width: 200px;
+}
+h1{
+  color: rgb(254, 242, 191);
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 100px;
+}
+.green{
+  background-color: green;
+}
+.red{
+  background-color: red;
+}
+.yellow{
+  background-color: yellow;
+}
+.blue{
+  background-color: blue;
+}
+
+.container{
+  margin-top: 100px;
+  margin-left: 35%;
+  margin-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 500px;
+  width: 500px;
+  justify-content: space-evenly;
+}
